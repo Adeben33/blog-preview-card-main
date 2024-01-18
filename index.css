@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 384px;
+  padding: 24px;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 12px;
+  box-shadow: 10px 10px 0 hsl(0, 0%, 7%);
+}
+
+img {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+main .content {
+  width: 336px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+main .content .heading-1 {
+  display: inline-block;
+  padding: 10px;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+main .content .heading-2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+main .content .heading-2:active {
+  color: hsl(47, 88%, 63%);
+}
+
+main .content .content-text {
+  color: grey;
+}
+
+.author {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: bold;
+}
+
+.author img {
+  height: 32px;
+  width: 32px;
+}
